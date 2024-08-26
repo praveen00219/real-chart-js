@@ -1,11 +1,11 @@
 # Real-Time Data Chart
 
-This project is a dynamic, real-time data visualization tool built using **Chart.js** and styled with **Tailwind CSS**. The chart updates every second with new data, showcasing smooth transitions and a modern user interface.
+This project is a dynamic, real-time data visualization tool built using **Chart.js**, styled with **Tailwind CSS**, and enhanced with **anime.js** for smooth animations. The chart updates every second with new data, showcasing a modern user interface and engaging animations.
 
 ## Project Overview
 
 - **Real-Time Updates:** The chart fetches and displays new random data points every second.
-- **Smooth Animations:** Each new data point is animated with a fade-in effect to highlight its addition.
+- **Anime.js Animations:** Each new data point is animated with a smooth elastic effect, making the data updates visually appealing.
 - **Responsive Design:** The layout adjusts seamlessly across devices, thanks to Tailwind CSS.
 - **Modern UI:** The interface is designed to be clean, minimalistic, and user-friendly.
 
@@ -23,6 +23,7 @@ You can view the live demo of this project here:
 
 - **HTML5:** The foundational structure of the webpage.
 - **Chart.js:** A powerful library used to create the real-time line chart.
+- **Anime.js:** A lightweight JavaScript animation library used to animate data point additions.
 - **Tailwind CSS:** A utility-first CSS framework used for styling and making the design responsive.
 - **JavaScript:** Handles the logic for generating and updating the chart data.
 
@@ -33,10 +34,10 @@ You can view the live demo of this project here:
    - The chart updates every second, adding new data points to the graph.
    - The X-axis represents time, with each new data point plotted in real-time.
 
-2. **Smooth Animations:**
+2. **Smooth Animations with Anime.js:**
 
-   - A fade-in effect is applied to each new data point, enhancing the visual experience.
-   - The animation is handled using custom CSS keyframes for smooth transitions.
+   - A smooth elastic animation is applied to each new data point using `anime.js`.
+   - This animation makes the chart updates visually engaging and interactive.
 
 3. **Responsive and Modern UI:**
 
