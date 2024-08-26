@@ -4,34 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-Time Chart</title>
+    <title>Real-Time Data Chart</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         canvas {
             max-width: 100%;
             height: auto;
         }
-
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        .chart-data-point {
-            animation: fadeIn 0.5s ease-in-out;
-        }
     </style>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl">
-        <h1 class="text-2xl font-bold text-center mb-4 text-gray-800">Real-Time Data Chart</h1>
+<body class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen">
+    <div class="w-11/12 max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold text-center mb-6">Real-Time Data Chart</h1>
         <canvas id="realTimeChart"></canvas>
     </div>
 
